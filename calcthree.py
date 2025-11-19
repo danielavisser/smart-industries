@@ -6,7 +6,7 @@ from io import BytesIO
 from PIL import Image
 import numpy as np
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://smart-industries.onrender.com"
 
 st.set_page_config(page_title="Autoencoder Demo", layout="wide")
 st.title("Autoencoder Demo — reconstructies & MSE")
