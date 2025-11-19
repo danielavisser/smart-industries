@@ -47,4 +47,6 @@ def api_predict(req: PredictRequest):
 # For local dev: start with:
 # uvicorn calctwo:app --reload
 if __name__ == "__main__":
-    uvicorn.run("calctwo:app", host="127.0.0.1", port=8000, reload=True)
+    # uvicorn.run("calctwo:app", host="127.0.0.1", port=8000, reload=True)
+    print("Run this FastAPI app on a local machine or a cloud server, not on Streamlit Cloud")
+
